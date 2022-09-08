@@ -1,0 +1,1013 @@
+[
+    {
+        "set": "cb",
+        "number": "001",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Base biológica",
+            "en": "Biologic base"
+        },
+        "type": "base",
+        "class": "biologic",
+        "cost": 0,
+        "atk": 0,
+        "def": 0,
+        "trait": [
+            "base"
+        ],
+        "skill": [
+            "repair"
+        ],
+        "special": {
+            "type": "active",
+            "cost": 0,
+            "desc": {
+                "es": "Durante tu turno, puedes incrementar\\nel valor de una energía en 1.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "002",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Base dimensional",
+            "en": ""
+        },
+        "type": "base",
+        "class": "dimensional",
+        "cost": 0,
+        "atk": 0,
+        "def": 0,
+        "trait": [
+            "base"
+        ],
+        "skill": [],
+        "special": {
+            "type": "active",
+            "cost": 0,
+            "desc": {
+                "es": "Puedes mirar las 2 primeras cartas de tu mazo.\\nSi lo haces, debes poner una arriba y la otra\\nabajo del mazo.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "003",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Base espectral",
+            "en": ""
+        },
+        "type": "base",
+        "class": "spectral",
+        "cost": 0,
+        "atk": 0,
+        "def": 0,
+        "trait": [
+            "base"
+        ],
+        "skill": [],
+        "special": {
+            "type": "active",
+            "cost": 0,
+            "desc": {
+                "es": "Durante tu turno, puedes robar una carta.\\nSi lo haces, debes desguazar una carta de la mano.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "004",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Base tecnológica",
+            "en": ""
+        },
+        "type": "base",
+        "class": "technologic",
+        "cost": 0,
+        "atk": 0,
+        "def": 0,
+        "trait": [
+            "base"
+        ],
+        "skill": [],
+        "special": {
+            "type": "active",
+            "cost": 0,
+            "desc": {
+                "es": "Durante tu turno, puedes relanzar\\nuna energía sin pagar el coste.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "010",
+        "version": 2,
+        "rarity": "common",
+        "name": {
+            "es": "Stinger",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "biologic",
+        "cost": "2+",
+        "atk": 2,
+        "def": 2,
+        "trait": [
+            "biologic",
+            "spaceship"
+        ],
+        "skill": [
+            "repair"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Cuando esta unidad es destruida, recupera en otra unidad [biologic] la cantidad de daño recibido.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Recupera 2 puntos de casco de la unidad en su vanguardia.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "3+",
+            "desc": {
+                "es": "Otorga a una unidad {shield}.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "011",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Ancient",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "biologic",
+        "cost": "3+",
+        "atk": 2,
+        "def": 3,
+        "trait": [
+            "biologic",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "2+",
+            "desc": {
+                "es": "Esta unidad gana {redirection}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Esta unidad gana {repair}.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Otorga a una unidad {regeneration}.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "012",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "Liftree",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "biologic",
+        "cost": "4+",
+        "atk": 2,
+        "def": 5,
+        "trait": [
+            "biologic",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Los ataques de unidades [technologic] le causan la mitad de daño.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "active",
+            "cost": "3+",
+            "desc": {
+                "es": "Recupera la mitad de los puntos de casco perdidos de esta unidad.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Intercambio los puntos de casco perdidos entre dos unidades amigas.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "013",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "Maddium",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "biologic",
+        "cost": "5+",
+        "atk": 2,
+        "def": 6,
+        "trait": [
+            "biologic",
+            "spaceship"
+        ],
+        "skill": [
+            "repair"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad gana {taunt}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "active",
+            "cost": "3+",
+            "desc": {
+                "es": "Recupera 2 punto de casco de las unidades que tiene a sus lados.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Todo el daño que reciba la unidad objetivo se recude a la mitad.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "014",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "Magissa",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "biologic",
+        "cost": "5+",
+        "atk": 3,
+        "def": 5,
+        "trait": [
+            "biologic",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "active",
+            "cost": "2+",
+            "desc": {
+                "es": "Recupera 1 punto de casco de todas las unidades amigas en vanguardia.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "active",
+            "cost": "3+",
+            "desc": {
+                "es": "Recupera 1 punto de casco de todas las unidades amigas.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Recupera 2 puntos de casco de todas las unidades amigas.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "015",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Viper",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "dimensional",
+        "cost": "2+",
+        "atk": 2,
+        "def": 2,
+        "trait": [
+            "dimensional",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "2+",
+            "desc": {
+                "es": "Después de atacar, puedes colocar esta unidad en otra casilla vacía.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "2+",
+            "desc": {
+                "es": "Cuando esta unidad recibe daño, puede moverse a otra casilla vacía.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "3+",
+            "desc": {
+                "es": "Otorga a una unidad {reflection}.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "016",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "Bestiure",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "dimensional",
+        "cost": "3+",
+        "atk": 2,
+        "def": 3,
+        "trait": [
+            "dimensional",
+            "spaceship"
+        ],
+        "skill": [
+            "block"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad gana {reflection}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad gana {precision}.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "6+",
+            "desc": {
+                "es": "Puedes desplegar una unidad sin pagar su energía. Esa unidad gana {haste}.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "017",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Skyerfly",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "dimensional",
+        "cost": "4+",
+        "atk": 3,
+        "def": 3,
+        "trait": [
+            "dimensional",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Cada vez que despliegues una unidad [dimensional] este turno, roba una carta.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "5+",
+            "desc": {
+                "es": "Cuando esta unidad recibe daño, roba una carta.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Roba 2 cartas.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "018",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Slider",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "dimensional",
+        "cost": "5+",
+        "atk": 3,
+        "def": 4,
+        "trait": [
+            "dimensional",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "active",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad intercambia su posición con otra unidad amiga [dimensional].",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Intercambia la posición entre dos unidades [dimensional] amigas cualquiera.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Puedes intercambiar la posición entre todas las unidades amigas.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "019",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Painker",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "dimensional",
+        "cost": "5+",
+        "atk": 4,
+        "def": 4,
+        "trait": [
+            "dimensional",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Las unidades a su lado ganan {reflection}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Cuando esta unidad es destruida, vuelve a tu mano.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Puedes devolver una unidad de tu desguace a tu mano.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "020",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "Ghost",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "spectral",
+        "cost": "2+",
+        "atk": 1,
+        "def": 3,
+        "trait": [
+            "spectral",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad gana {taunt}. Cuando ataca, gana +1 #atk#.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": 2,
+            "desc": {
+                "es": "Esta unidad gana {shield}. Cuando ataca, pierde  -1 #atk#.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Otorga a una unidad {indestructible}.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "021",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "clouddeath",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "spectral",
+        "cost": "3+",
+        "atk": 1,
+        "def": 4,
+        "trait": [
+            "spectral",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "5+",
+            "desc": {
+                "es": "Esta unidad gana +1 #atk# por cada unidad [spaceship] aliada desplegada. ",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "La unidad en su vanguardia gana +2 #atk#.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Hace a un objetivo 1 de daño por cada unidad [spectral] aliada desplegada.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "022",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "darkstorm",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "spectral",
+        "cost": "4+",
+        "atk": 2,
+        "def": 5,
+        "trait": [
+            "spectral",
+            "spaceship"
+        ],
+        "skill": [],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad gana {precision} y {doublestrike}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Duplica el valor de #atk# de otra unidad [spectral] aliada desplegada.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Hace 5 puntos de daño a una unidad enemiga o 8 puntos si es [dimensional].",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "023",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Zero Reaver",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "spectral",
+        "cost": "5+",
+        "atk": 3,
+        "def": 4,
+        "trait": [
+            "spectral",
+            "spaceship"
+        ],
+        "skill": [
+            "taunt"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "2+",
+            "desc": {
+                "es": "La unidad en su retaguardia gana +1 de #atk#.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "La unidad en su vanguardia gana {haste}.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Todas las unidades [spaceship] amigas ganan {haste}.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "024",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "Morabito",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "spectral",
+        "cost": "5+",
+        "atk": 3,
+        "def": 5,
+        "trait": [
+            "spectral",
+            "spaceship"
+        ],
+        "skill": [
+            "taunt",
+            "shield"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Las unidades enemigas de su misma línea pierden -2 #def#.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Las unidades amigas a sus lados ganan +1 #def#.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "6+",
+            "desc": {
+                "es": "Todas las unidades [spaceship] amigas ganan +2 #atk# hasta el final del turno.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "025",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "Gremlin",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "technologic",
+        "cost": "2+",
+        "atk": 2,
+        "def": 2,
+        "trait": [
+            "technologic",
+            "spaceship"
+        ],
+        "skill": [
+            "precision"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "2+",
+            "desc": {
+                "es": "Después de atacar, puede moverse a otra casilla.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "2+",
+            "desc": {
+                "es": "Esta unidad gana {protection}.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "4+",
+            "desc": {
+                "es": "Anula {shield} de una unidad.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "026",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "blackfire",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "technologic",
+        "cost": "3+",
+        "atk": 4,
+        "def": 2,
+        "trait": [
+            "technologic",
+            "spaceship"
+        ],
+        "skill": [
+            "haste"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Esta unidad gana {precision}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Esta unidad gana +2 #atk# si tiene una unidad en su vanguardia.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Hace 1 de daño a cada unidad enemiga por cada unidad amiga desplegada.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "027",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "destroyer",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "technologic",
+        "cost": "4+",
+        "atk": 4,
+        "def": 3,
+        "trait": [
+            "technologic",
+            "spaceship"
+        ],
+        "skill": [
+            "counterattack"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "La unidad enemiga enfrentada gana {fear}.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "active",
+            "cost": "5+",
+            "desc": {
+                "es": "Destruye una unidad amiga. Hace a un objetivo el mismo daño que el #atk# de la unidad destruida.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "6+",
+            "desc": {
+                "es": "Destruye cualquier unidad objetivo. Luego destruye esta unidad.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "028",
+        "version": 1.1,
+        "rarity": "common",
+        "name": {
+            "es": "cobra",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "technologic",
+        "cost": "5+",
+        "atk": 5,
+        "def": 2,
+        "trait": [
+            "technologic",
+            "spaceship"
+        ],
+        "skill": [
+            "trample"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Cuando ataca a una unidad que está en retaguardia, dobla su valor de #atk#.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "3+",
+            "desc": {
+                "es": "Solo puede recibir ataques de una unidad enfrentada.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "6+",
+            "desc": {
+                "es": "Puedes desguazar hasta todas tus cartas de la mano. Causa 1 de daño a la base enemiga por cada carta desguazada.",
+                "en": ""
+            }
+        }
+    },
+    {
+        "set": "cb",
+        "number": "029",
+        "version": 1,
+        "rarity": "common",
+        "name": {
+            "es": "anubis",
+            "en": ""
+        },
+        "type": "unit",
+        "class": "technologic",
+        "cost": "5+",
+        "atk": 5,
+        "def": 3,
+        "trait": [
+            "technologic",
+            "spaceship"
+        ],
+        "skill": [
+            "firstdamage"
+        ],
+        "vanguard": {
+            "type": "pasive",
+            "cost": "4+",
+            "desc": {
+                "es": "Después de un ataque, recupera los mismos puntos de casco que el daño causado.",
+                "en": ""
+            }
+        },
+        "rearguard": {
+            "type": "pasive",
+            "cost": "5+",
+            "desc": {
+                "es": "Cuando es destruida, causa tanto daño como su valor de #atk# a una unidad.",
+                "en": ""
+            }
+        },
+        "flash": {
+            "type": "active",
+            "cost": "6+",
+            "desc": {
+                "es": "Otorga a una unidad {triplestrike}.",
+                "en": ""
+            }
+        }
+    }
+]

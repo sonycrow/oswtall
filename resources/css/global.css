@@ -1,0 +1,88 @@
+/* FONTS */
+@font-face {
+    font-family: 'ethnocentric';
+    src: url("../fonts/ethnocentric_rg.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'orbitron';
+    src: url("../fonts/orbitron_medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'orbitronb';
+    src: url("../fonts/orbitron_bold.otf") format("truetype");
+}
+
+/* TRAITS y SKILLS */
+span.skill,
+span.trait {
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    padding: 0 5px 0 4px;
+    white-space: nowrap;
+    text-shadow: none;
+    font-family: 'orbitron', 'serif';
+    box-shadow: none;
+}
+
+span.trait {
+    color: white;
+    border: 2px solid rgb(210,210,210);
+    background-color: black;
+    white-space: nowrap;
+    text-shadow: none;
+}
+
+span.atk,
+span.def,
+span.technologic,
+span.biologic,
+span.espectral,
+span.dimensional {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+span.atk {
+    background-image: url("../images/atk.png");
+    background-size: 18px;
+    padding: 0 4px 0 4px;
+}
+
+span.def {
+    background-image: url("../images/def.png");
+    background-size: 18px;
+    padding: 0 6px 0 6px;
+}
+
+span.trait-technologic {
+    border-color: rgb(210, 22, 9);
+}
+
+span.trait-biologic {
+    border-color: rgb(0, 175, 128);
+}
+
+span.trait-spectral {
+    border-color: rgb(0, 143, 200);
+}
+
+span.trait-dimensional {
+    border-color: rgb(232, 210, 12);
+}
+
+span.skill-cost {
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 0 2px 0 2px;
+    margin-right: 4px;
+    font-family: 'orbitron', 'serif';
+    background-color: rgb(240,240,240);
+}

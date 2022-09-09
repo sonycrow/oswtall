@@ -25,6 +25,7 @@
         @include('subviews.navbar')
         <main class="mt-4">
             {{-- Livewire --}}
+            @livewire('table-codex')
         </main>
 
         {{-- Scripts de livewire y wireUI --}}

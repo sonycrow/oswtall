@@ -14,16 +14,15 @@
         "atk": 0,
         "def": 0,
         "trait": [
+            "biologic",
             "base"
         ],
-        "skill": [
-            "repair"
-        ],
+        "skill": [],
         "special": {
             "type": "active",
             "cost": 0,
             "desc": {
-                "es": "Durante tu turno, puedes incrementar\\nel valor de una energía en 1.",
+                "es": "Durante tu turno, puedes incrementar\nel valor de una energía en 1.",
                 "en": ""
             }
         }
@@ -43,6 +42,7 @@
         "atk": 0,
         "def": 0,
         "trait": [
+            "dimensional",
             "base"
         ],
         "skill": [],
@@ -50,7 +50,7 @@
             "type": "active",
             "cost": 0,
             "desc": {
-                "es": "Puedes mirar las 2 primeras cartas de tu mazo.\\nSi lo haces, debes poner una arriba y la otra\\nabajo del mazo.",
+                "es": "Puedes mirar las 2 primeras cartas de tu mazo.\nSi lo haces, debes poner una arriba y la otra\\nabajo del mazo.",
                 "en": ""
             }
         }
@@ -70,6 +70,7 @@
         "atk": 0,
         "def": 0,
         "trait": [
+            "spectral",
             "base"
         ],
         "skill": [],
@@ -77,7 +78,7 @@
             "type": "active",
             "cost": 0,
             "desc": {
-                "es": "Durante tu turno, puedes robar una carta.\\nSi lo haces, debes desguazar una carta de la mano.",
+                "es": "Durante tu turno, puedes robar una carta.\nSi lo haces, debes desguazar una carta de la mano.",
                 "en": ""
             }
         }
@@ -97,6 +98,7 @@
         "atk": 0,
         "def": 0,
         "trait": [
+            "technologic",
             "base"
         ],
         "skill": [],
@@ -104,7 +106,7 @@
             "type": "active",
             "cost": 0,
             "desc": {
-                "es": "Durante tu turno, puedes relanzar\\nuna energía sin pagar el coste.",
+                "es": "Durante tu turno, puedes relanzar\nuna energía sin pagar el coste.",
                 "en": ""
             }
         }
@@ -146,7 +148,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "3+",
             "desc": {
@@ -190,7 +192,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -234,7 +236,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -280,7 +282,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -324,7 +326,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "5+",
             "desc": {
@@ -368,7 +370,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "3+",
             "desc": {
@@ -414,7 +416,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "6+",
             "desc": {
@@ -458,7 +460,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "5+",
             "desc": {
@@ -502,7 +504,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -546,7 +548,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "5+",
             "desc": {
@@ -590,7 +592,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -634,7 +636,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -678,7 +680,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "5+",
             "desc": {
@@ -724,7 +726,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "5+",
             "desc": {
@@ -771,7 +773,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "6+",
             "desc": {
@@ -817,7 +819,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "4+",
             "desc": {
@@ -863,7 +865,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "5+",
             "desc": {
@@ -909,7 +911,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "6+",
             "desc": {
@@ -955,7 +957,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "6+",
             "desc": {
@@ -1001,7 +1003,7 @@
                 "en": ""
             }
         },
-        "flash": {
+        "ultimate": {
             "type": "active",
             "cost": "6+",
             "desc": {

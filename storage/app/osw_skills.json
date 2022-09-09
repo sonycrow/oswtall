@@ -1,0 +1,222 @@
+[
+    {
+        "code": "precision",
+        "name": {
+            "en": "precision",
+            "es": "precisión"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {precision} puede atacar a cualquier objetivo del campo."
+        }
+    },
+    {
+        "code": "critical",
+        "name": {
+            "en": "critical",
+            "es": "crítico"
+        },
+        "desc": {
+            "en": "",
+            "es": "Si una unidad recibe daño en el casco de un ataque {critical}, está queda destruida inmediatamente después de resolver el combate."
+        }
+    },
+    {
+        "code": "protection",
+        "name": {
+            "en": "protection",
+            "es": "protección"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con protección recibe el ataque realizado en otra unidad en su misma línea."
+        }
+    },
+    {
+        "code": "firstdamage",
+        "name": {
+            "en": "first damage",
+            "es": "daña primero"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {firstdamage} resuelve primero su daño de ataque durante el combate. Si la unidad defensora no ha sido destruida, entonces se resuelve el daño del defensor y el resto del combate de la forma normal."
+        }
+    },
+    {
+        "code": "doublestrike",
+        "name": {
+            "en": "double strike",
+            "es": "doble ataque"
+        },
+        "desc": {
+            "en": "",
+            "es": "La unidad realiza 2 ataques completos, resolviendo toda la fase de combate 2 veces. Los ataques pueden realizarse a cualquier objetivo válido."
+        }
+    },
+    {
+        "code": "triplestrike",
+        "name": {
+            "en": "triple strike",
+            "es": "triple ataque"
+        },
+        "desc": {
+            "en": "",
+            "es": "La unidad realiza 3 ataques completos, resolviendo toda la fase de combate 3 veces. Los ataques pueden realizarse a cualquier objetivo válido."
+        }
+    },
+    {
+        "code": "block",
+        "name": {
+            "en": "block",
+            "es": "bloquear"
+        },
+        "desc": {
+            "en": "",
+            "es": "La unidad con {block} toma el relevo de la unidad original atacada, aunque no esté en su misma línea. El nuevo objetivo hay que declararlo antes de pasar a la fase de combate."
+        }
+    },
+    {
+        "code": "stun",
+        "name": {
+            "en": "stun",
+            "es": "aturdir"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {stun} no puede realizar ataques ni activar habilidades."
+        }
+    },
+    {
+        "code": "haste",
+        "name": {
+            "en": "haste",
+            "es": "prisa"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {haste} puede atacar el mismo turno en el que entra en juego."
+        }
+    },
+    {
+        "code": "indestructible",
+        "name": {
+            "en": "indestructible",
+            "es": "indestructible"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {indestructible} no puede reducir su valor de casco a menos de 1 durante el turno."
+        }
+    },
+    {
+        "code": "fury",
+        "name": {
+            "en": "fury",
+            "es": "furia"
+        },
+        "desc": {
+            "en": "",
+            "es": ""
+        }
+    },
+    {
+        "code": "taunt",
+        "name": {
+            "en": "taunt",
+            "es": "provocar"
+        },
+        "desc": {
+            "en": "",
+            "es": "Las unidades atacantes están obligadas a atacar a la unidad con {taunt} aunque no esté en su misma línea. Si hay varias unidades con {taunt}, el atacante decide a quien atacar."
+        }
+    },
+    {
+        "code": "trample",
+        "name": {
+            "en": "trample",
+            "es": "arrollar"
+        },
+        "desc": {
+            "en": "",
+            "es": "Cuando una unidad con {trample} realiza un ataque, el daño sobrante de ese ataque pasa al siguiente objetivo válido de su misma línea."
+        }
+    },
+    {
+        "code": "shield",
+        "name": {
+            "en": "shield",
+            "es": "escudo"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {shield} no recibe daño durante el primer ataque que reciba durante el turno. Después de recibir cualquier ataque, pierde {shield}."
+        }
+    },
+    {
+        "code": "counterattack",
+        "name": {
+            "en": "counter attack",
+            "es": "contraataque"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {counter attack} realiza un ataque al mismo objetivo que realizo el primer ataque. El ataque se resuelve normalmente."
+        }
+    },
+    {
+        "code": "regeneration",
+        "name": {
+            "en": "regeneration",
+            "es": "regeneración"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {regeneration}, recupera todos los puntos de casco perdidos al final del turno."
+        }
+    },
+    {
+        "code": "redirection",
+        "name": {
+            "en": "redirection",
+            "es": "redirección"
+        },
+        "desc": {
+            "en": "",
+            "es": "Redirige todo el daño que reciba esa unidad a otra de su mismo equipo."
+        }
+    },
+    {
+        "code": "repair",
+        "name": {
+            "en": "repair",
+            "es": "reparación"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {repair}, recupera 1 punto de casco perdido al final del turno."
+        }
+    },
+    {
+        "code": "reflection",
+        "name": {
+            "en": "reflection",
+            "es": "reflejo"
+        },
+        "desc": {
+            "en": "",
+            "es": "Cuando una unidad con {reflection} es atacado, la unidad atacante recibe la misma cantidad de daño."
+        }
+    },
+    {
+        "code": "fear",
+        "name": {
+            "en": "fear",
+            "es": "miedo"
+        },
+        "desc": {
+            "en": "",
+            "es": "Una unidad con {fear} no puede realizar ataques, pero si puede activar habilidades."
+        }
+    }
+]

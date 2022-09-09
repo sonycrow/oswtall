@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOME
 Route::get('/', function () {
     return view('welcome');
 });
 
+// CAMBIO DE IDIOMA
 Route::get('/lang/{locale}', function ($locale) {
     session()->put('locale', $locale);
     return redirect()->back();
+});
+
+// RUTAS BÁSICAS
+Route::get('/{section}', function ($section) {
+    return view(strtolower(trim($section)));
 });

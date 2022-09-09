@@ -18,14 +18,8 @@
     </head>
 
     <body>
-        {{-- Notificaciones --}}
-        <x-notifications/>
-
-        {{-- Layout --}}
-        @include('subviews.navbar')
-        <main class="mt-4">
-            {{-- Livewire --}}
-        </main>
+        {{-- Livewire --}}
+        @livewire('card-generator')
 
         {{-- Scripts de livewire y wireUI --}}
         @livewireScripts

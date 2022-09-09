@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +24,12 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot() {}
+    public function boot() {
+        // Creamos nueva directiva para la funcion nativa nl2br()
+        Blade::directive('nl2br', function ($string) {
+            return "<?php echo nl2br(htmlentities($string)); ?>";
+        });
+    }
 
     /**
      * Obtiene el dominio donde está corriendo la applicación. Se puede establecer por configuración para simular un

@@ -23,7 +23,7 @@
 
         {{-- Layout --}}
         @include('subviews.navbar')
-        <main class="mt-4">
+        <main class="my-4">
             {{-- Livewire --}}
         </main>
 

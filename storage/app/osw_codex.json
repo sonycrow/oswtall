@@ -50,7 +50,7 @@
             "type": "active",
             "cost": 0,
             "desc": {
-                "es": "Puedes mirar las 2 primeras cartas de tu mazo.\nSi lo haces, debes poner una arriba y la otra\\nabajo del mazo.",
+                "es": "Puedes mirar las 2 primeras cartas de tu mazo.\nDevuelve las cartas al mazo como quieras, arriba o abajo.",
                 "en": ""
             }
         }

@@ -110,17 +110,6 @@
         }
     },
     {
-        "code": "fury",
-        "name": {
-            "en": "fury",
-            "es": "furia"
-        },
-        "desc": {
-            "en": "",
-            "es": ""
-        }
-    },
-    {
         "code": "taunt",
         "name": {
             "en": "taunt",

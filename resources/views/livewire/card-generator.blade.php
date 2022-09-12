@@ -4,15 +4,17 @@
 
         {{-- Tipo base --}}
         @if ($card['type'] == 'base')
-            @include('cards/base')
+            @include('livewire/cards/base')
         @endif
 
         {{-- Tipo unidad --}}
         @if ($card['type'] == 'unit')
-            @include('cards/unit')
+            @include('livewire/cards/unit')
         @endif
 
     @empty
         <p>No data</p>
     @endforelse
+
+    <div id="cards" class="flex flex-wrap"></div>
 </div>

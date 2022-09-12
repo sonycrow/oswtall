@@ -1,4 +1,4 @@
-<div class="card card-base flex" data-cardid="{{ $card['set'] }}{{ $card['number'] }}{{ $lang }}" data-number="{{ $card['number'] }}">
+<div class="card card-base flex" data-cardid="{{ Str::lower($card['set'] . $card['number'] . '-' . $card['version'] . '-' . $lang) }}" data-number="{{ $card['number'] }}">
     <div class="template justify-center">
 
         <div class="base base-{{ $card['class'] }}"></div>
@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <div class="art" style="background-image: url('./art/{{ $card['set'] }}/{{ $card['set'] }}{{ $card['number'] }}.png');"></div>
+        <div class="art" style="background-image: url('./assets/art/{{ $card['set'] }}/{{ $card['set'] }}{{ $card['number'] }}.png');"></div>
         <div class="title">{{ $card['name'][$lang] }}</div>
 
         <div class="credits"></div>

@@ -39,11 +39,6 @@
                             <span class="select-none">Homepage</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/decks">
-                            <span class="select-none">Decks</span>
-                        </a>
-                    </li>
                 </ul>
             </div>
             <!-- navigation group end-->
@@ -62,9 +57,33 @@
                             <span class="select-none">Skills</span>
                         </a>
                     </li>
+                    <li>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/cardlist">
+                            <span class="select-none">Cards</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- example copies end -->
+
+            <!-- example copies start -->
+            <div class="px-4 pb-6">
+                <h3 class="mb-2 text-xs font-medium uppercase text-gray-600">Tools</h3>
+                <ul class="mb-8 text-sm font-medium">
+                    <li>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/cards">
+                            <span class="select-none">Card generator</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/decks">
+                            <span class="select-none">Deck builder</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- example copies end -->
+
         </nav>
     </div>
 

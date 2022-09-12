@@ -18,8 +18,12 @@
     </head>
 
     <body>
-        {{-- Livewire --}}
-        @livewire('card-generator')
+        {{-- Layout --}}
+        @include('subviews.navbar')
+        <main class="p-4">
+            {{-- Livewire --}}
+            @livewire('card-generator')
+        </main>
 
         {{-- Scripts de livewire y wireUI --}}
         @livewireScripts

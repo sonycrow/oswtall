@@ -50,13 +50,13 @@ span.dimensional {
 }
 
 span.atk {
-    background-image: url("../images/atk.png");
+    background-image: url("../images/elements/atk.png");
     background-size: 18px;
     padding: 0 4px 0 4px;
 }
 
 span.def {
-    background-image: url("../images/def.png");
+    background-image: url("../images/elements/def.png");
     background-size: 18px;
     padding: 0 6px 0 6px;
 }

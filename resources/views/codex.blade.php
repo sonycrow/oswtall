@@ -23,7 +23,7 @@
 
         {{-- Layout --}}
         @include('subviews.navbar')
-        <main class="my-4">
+        <main class="p-4">
             {{-- Livewire --}}
             @livewire('table-codex')
         </main>

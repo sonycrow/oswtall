@@ -1,5 +1,4 @@
-<div class="container mx-auto"
-     x-data="datatables({{ Illuminate\Support\Js::from($headers) }}, {{ Illuminate\Support\Js::from($elements) }})"
+<div x-data="datatables({{ Illuminate\Support\Js::from($headers) }}, {{ Illuminate\Support\Js::from($elements) }})"
      x-cloak>
 
     @if ($props['allowSelection'])

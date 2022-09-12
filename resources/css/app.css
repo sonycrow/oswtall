@@ -9,3 +9,7 @@
 
 /* Estilos globales */
 @import "global.css";
+
+/* Estilos de cartas */
+@import "cards/card-base.css";
+@import "cards/card-unit.css";
